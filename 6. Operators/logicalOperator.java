@@ -7,7 +7,7 @@ public class logicalOperator {
 
         // Locical OR
 
-        System.out.println((3>2)||(5<1));
+        // System.out.println((3>2)||(5<1));
 
         // Logical NOT
         System.out.println(!(3>2));
