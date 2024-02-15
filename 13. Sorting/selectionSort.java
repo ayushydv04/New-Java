@@ -1,3 +1,5 @@
+// Selection sort mei hm pehle first element ko min maan lete h aur fir pure array m check krte h agr usse bhi koi chota element milta h toh hm fir usko min bna dete h aur fir i ko min se swap kr dete h
+
 public class selectionSort {
 
     public static void SelectionSort(int arr[]){
