@@ -1,3 +1,5 @@
+// check kro adjacent element ke saath agr bda h toh swap krdo aise he krte jao
+
 public class bubbleSort {
 
     public static void BubbleSort(int arr[]){
