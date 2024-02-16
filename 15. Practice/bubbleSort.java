@@ -1,10 +1,8 @@
-// check kro adjacent element ke saath agr bda h toh swap krdo aise he krte jao
-
 public class bubbleSort {
 
     public static void BubbleSort(int arr[]){
-        for(int turn = 0; turn < arr.length-1; turn++){
-            for(int j = 0; j < arr.length-1-turn; j++){
+        for(int i = 0; i<arr.length-1; i++){
+            for(int j = 0; j<arr.length-1 - i; j++){
                 if(arr[j] > arr[j+1]){
                     int temp = arr[j];
                     arr[j] = arr[j+1];
@@ -18,7 +16,6 @@ public class bubbleSort {
         for(int i = 0; i<arr.length; i++){
             System.out.print(arr[i] + " ");
         }
-        // System.out.println();
     }
 
     public static void main(String[] args) {
@@ -26,5 +23,6 @@ public class bubbleSort {
 
         BubbleSort(arr);
         printArr(arr);
+        
     }
 }
