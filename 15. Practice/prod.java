@@ -5,8 +5,8 @@ public class prod {
     }
 
     public static void main(String[] args) {
-        // int p = 
-        System.out.println(Prod(10,20));
+        int p = Prod(10,20);
+        System.out.println(p);
         
     }
 }
