@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.box{
+    margin-top: 70px;
+    height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+    position: relative;
+    background-color: rgb(118, 115, 112);
+    overflow: hidden;
+}
+
+.box video{
+    width: 400px;
+    position: absolute;
+}
+
+video.vdo-1 {
+    position: absolute;
+    top: 30px;
+    left: -180px;
+}
+video.vdo-2{
+    position: absolute;
+    top: 290px;
+    left: 0px;
+}
+video.vdo-3{
+    position: absolute;
+    top: 30px;
+    left: 270px;
+}
+video.vdo-4{
+    position: absolute;
+    top: 290px;
+    left: 450px;
+}
+video.vdo-5{
+    position: absolute;
+    top: 30px;
+    left: 720px;
+}
+video.vdo-6{
+    /* width: 370px; */
+    position: absolute;
+    top: 290px;
+    right: -20px;
+    overflow: hidden;
+}
+video.vdo-7{
+    /* width: 370px; */
+    position: absolute;
+    top: 30px;
+    right: -290px;
+    overflow: hidden;
+}
+
