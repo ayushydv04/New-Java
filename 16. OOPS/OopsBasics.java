@@ -9,7 +9,7 @@ public class OopsBasics {
         myAcc.username = "Ayush";
         // myAcc.password = "abcde"; can't access because it's private
         myAcc.setPassword("abcde");
-        myAcc.showPassword();   // To see private data
+        System.out.println(myAcc.showPassword()); // To see private data
     }
 }
 
@@ -21,8 +21,8 @@ class BankAccount{
         password = pwd;
     }
 
-    void showPassword(){
-        System.out.println(password);
+    String showPassword(){
+        return password;
     }
 }
 
